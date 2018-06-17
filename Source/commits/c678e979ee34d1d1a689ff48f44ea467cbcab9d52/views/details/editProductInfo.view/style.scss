@@ -1,0 +1,124 @@
+.editProductInfo {
+	.close_ico {
+		float: right;
+		cursor: pointer;
+		width: 18px;
+		height: 18px;
+		background: url('%{media}/icons/closeX.svg') no-repeat center;
+		background-position: 0px 0px;
+		background-size: cover;
+		opacity: 0.7;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.close_ico:hover {
+		opacity: 1;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.formContainer {
+		& {
+			clear: both;
+		}
+		.editGroup {
+			& {
+				overflow: auto;
+				margin-bottom: 20px;
+			}
+			.ico.create_new {
+				float: right;
+				cursor: pointer;
+				width: 16px;
+				height: 16px;
+				margin: 10px 5px;
+				background: url('%{media}/icons/actionIcons.svg') no-repeat center;
+				background-position: 0px -64px;
+				background-size: cover;
+				opacity: 0.7;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+			}
+			.ico.create_new:hover {
+				opacity: 1;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+			}
+			.ghd {
+				font-size: 12px;
+				line-height: 16px;
+				font-weight: normal;
+				margin: 10px 5px;
+				padding: 3px 0px;
+				color: #5E6570;
+				border-bottom: 1px solid #CCC;
+			}
+		}
+		.frow {
+			& {
+				overflow: auto;
+				margin: 3px 0px;
+			}
+			.flabel,
+			.fselect {
+				border: none;
+				float: left;
+				width: 150px;
+				margin-right: 20px;
+				padding: 3px;
+				outline: none;
+				background-color: transparent;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+			}
+			.finput {
+				float: left;
+				border: none;
+				outline: none;
+				width: 200px;
+				background: transparent;
+			}
+			.ico.remove {
+				float: right;
+				cursor: pointer;
+				width: 16px;
+				height: 16px;
+				margin: 3px;
+				background: url('%{media}/icons/closeX.svg') no-repeat center;
+				background-position: 0px 0px;
+				background-size: cover;
+				opacity: 0;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+			}
+			.ico.remove:hover,
+			&:hover .ico.remove:hover {
+				opacity: 1;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+			}
+			&:hover .ico.remove {
+				opacity: 0.7;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+			}
+		}
+		.ftext {
+			width: 100%;
+			border: none;
+			padding: 0px 8px;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			outline: none;
+			resize: none;
+		}
+	}
+}

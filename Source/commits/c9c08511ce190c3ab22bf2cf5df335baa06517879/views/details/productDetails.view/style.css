@@ -1,0 +1,81 @@
+.productDetails .sidebar {
+	float: left;
+	width: 25%;
+}
+
+.productDetails .sidebar .imageContainer {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+.productDetails .sidebar .imageContainer:empty {
+	background: url('%{media}/icons/profile.svg') no-repeat center;
+	background-size: contain;
+	opacity: 0.7;
+}
+
+.productDetails .sidebar .imageContainer img {
+	height: inherit;
+	width: inherit;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.productDetails .sidebar .title {
+	color: #5E6570;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+	line-height: 24px;
+}
+
+.productDetails .sidebar .actions {
+	margin-top: 20px;
+}
+
+.productDetails .sidebar .abutton {
+	display: block;
+	border: 1px solid #ed5e54;
+	color: #ed5e54;
+	padding: 6px 15px;
+	line-height: 16px;
+	cursor: pointer;
+	width: auto;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin: 5px 15px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+}
+
+.productDetails .sidebar .abutton:hover {
+	background: #ed5e54;
+	color: #FFF;
+}
+.productDetails .detailsContainer {
+	float: right;
+	width: 75%;
+}
+.productDetails .detailsContainer .section {
+	border: 1px solid #E8E8E8;
+	background: #FFF;
+	padding: 20px;
+	margin: 10px 0px;
+}
+
+.productDetails .detailsContainer .section .hd {
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: normal;
+	margin: 5px 0px;
+	margin-bottom: 20px;
+	color: #5E6570;
+}

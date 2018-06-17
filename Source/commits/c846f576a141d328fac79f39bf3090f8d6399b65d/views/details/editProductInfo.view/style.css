@@ -1,0 +1,129 @@
+.editProductInfo .close_ico {
+	float: right;
+	cursor: pointer;
+	width: 18px;
+	height: 18px;
+	background: url('%{media}/icons/closeX.svg') no-repeat center;
+	background-position: 0px 0px;
+	background-size: cover;
+	opacity: 0.7;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.editProductInfo .close_ico:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.editProductInfo .formContainer {
+	clear: both;
+}
+.editProductInfo .formContainer .editGroup {
+	overflow: auto;
+	margin-bottom: 20px;
+}
+
+.editProductInfo .formContainer .editGroup .ico.create_new {
+	float: right;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	margin: 10px 5px;
+	background: url('%{media}/icons/actionIcons.svg') no-repeat center;
+	background-position: 0px -64px;
+	background-size: cover;
+	opacity: 0.7;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.editProductInfo .formContainer .editGroup .ico.create_new:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.editProductInfo .formContainer .editGroup .ghd {
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	margin: 10px 5px;
+	padding: 3px 0px;
+	color: #5E6570;
+	border-bottom: 1px solid #CCC;
+}
+.editProductInfo .formContainer .frow {
+	overflow: auto;
+	margin: 3px 0px;
+}
+
+.editProductInfo .formContainer .frow .flabel, .editProductInfo .formContainer .frow .fselect {
+	border: none;
+	float: left;
+	width: 150px;
+	margin-right: 20px;
+	padding: 3px;
+	outline: none;
+	background-color: transparent;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.editProductInfo .formContainer .frow .frlabel {
+	margin: 0px 3px;
+	display: inline-block;
+}
+
+.editProductInfo .formContainer .frow .finput {
+	float: left;
+	border: none;
+	outline: none;
+	width: 200px;
+	background: transparent;
+}
+
+.editProductInfo .formContainer .frow .ico.remove {
+	float: right;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	margin: 3px;
+	background: url('%{media}/icons/closeX.svg') no-repeat center;
+	background-position: 0px 0px;
+	background-size: cover;
+	opacity: 0;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.editProductInfo .formContainer .frow .ico.remove:hover, .editProductInfo .formContainer .frow:hover .ico.remove:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.editProductInfo .formContainer .frow:hover .ico.remove {
+	opacity: 0.7;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.editProductInfo .formContainer .ftext {
+	width: 100%;
+	border: none;
+	padding: 0px 8px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	resize: none;
+}

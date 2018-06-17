@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views><view name="MainView"/><view name="listViewer"/><view name="appSettings"/><view name="createNewProduct"/><folder name="details"><view name="productDetails"/><view name="deleteProduct"/><view name="productInfo"/><view name="editProductInfo"/></folder><folder name="stock"><view name="stockInfo"></view></folder></views>

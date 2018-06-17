@@ -1,0 +1,130 @@
+.productsListView {
+	margin-top: 20px;
+}
+.productsListView .listContainer {
+	display: block;
+}
+
+.productsListView .listContainer .hd {
+	font-size: 14px;
+	text-align: center;
+	color: #555;
+	margin-top: 50px;
+	font-weight: normal;
+}
+.productsListView .listContainer .searchContainer {
+	background: #FFF;
+	overflow: auto;
+	border: 1px solid #DDD;
+	margin: 12px 0px;
+}
+
+.productsListView .listContainer .searchContainer .searchIco {
+	float: right;
+	width: 20px;
+	height: 20px;
+	background: url('%{media}/icons/iconSprite.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -20px;
+	overflow: hidden;
+	margin: 6px;
+}
+
+.productsListView .listContainer .searchContainer .searchInput {
+	float: left;
+	line-height: 16px;
+	font-size: 12px;
+	padding: 8px 12px;
+	border: none;
+	width: 90%;
+	outline: none;
+	color: #555;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.productsListView .listContainer .listItem {
+	border: 1px solid #E8E8E8;
+	border-bottom: none;
+	background: #FFF;
+	padding: 10px;
+	line-height: 24px;
+	flex: 1;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	position: relative;
+	cursor: pointer;
+}
+
+.productsListView .listContainer .listItem:last-child {
+	border-bottom: 1px solid #E8E8E8;
+}
+
+.productsListView .listContainer .listItem .ico {
+	float: left;
+	width: 24px;
+	height: 24px;
+	background: url('%{media}/icons/profile.svg') no-repeat center;
+	background-size: cover;
+	margin-right: 10px;
+}
+
+.productsListView .listContainer .listItem .title {
+	font-size: 12px;
+	color: #5E6570;
+	font-weight: bold;
+}
+.productsListView .detailsContainer {
+	display: none;
+}
+
+.productsListView .detailsContainer .wbutton {
+	float: left;
+	margin: 10px;
+	margin-top: 0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color: #5E6570;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	cursor: pointer;
+	padding: 5px 15px;
+	line-height: 20px;
+	font-size: 12px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.productsListView .detailsContainer .wbutton:hover {
+	 background-color: #5E6570;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.productsListView .detailsContainer .wbutton.back .ico {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url('%{media}/icons/iconSprite.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -40px;
+	margin-right: 10px;
+}
+
+.productsListView .detailsContainer .wbox.details {
+	clear: both;
+	padding: 10px;
+	margin-top: 10px;
+}
+.productsListView.details .listContainer {
+	display: none;
+}
+
+.productsListView.details .detailsContainer {
+	display: block;
+}
